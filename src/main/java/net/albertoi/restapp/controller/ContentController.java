@@ -16,4 +16,9 @@ public class ContentController {
     public Content content(@RequestParam(value = "name", defaultValue = "World") String name) {
         return new Content(counter.incrementAndGet(), String.format(template, name));
     }
+
+    @RequestMapping("/ping")
+    public String ping() {
+        return "Pending..";
+    }
 }
