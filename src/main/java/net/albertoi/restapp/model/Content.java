@@ -1,4 +1,4 @@
-package com.example.demo.model;
+package net.albertoi.restapp.model;
 
 public class Content{
     private final long id;
