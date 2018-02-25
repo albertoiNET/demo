@@ -13,8 +13,7 @@ public class ContentController {
     private final AtomicLong counter = new AtomicLong();
 
     @RequestMapping("/content")
-    public Content greeting(@RequestParam(value = "name", defaultValue = "World") String name) {
-        return new Content(counter.incrementAndGet(),
-                String.format(template, name));
+    public Content content(@RequestParam(value = "name", defaultValue = "World") String name) {
+        return new Content(counter.incrementAndGet(), String.format(template, name));
     }
 }
