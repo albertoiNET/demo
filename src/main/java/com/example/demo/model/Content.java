@@ -1,4 +1,4 @@
-package com.example.demo.mode;
+package com.example.demo.model;
 
 public class Content{
     private final long id;
