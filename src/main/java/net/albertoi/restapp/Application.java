@@ -3,6 +3,9 @@ package net.albertoi.restapp;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+/**
+ * Main Spring boot app
+ */
 @SpringBootApplication
 public class Application {
 
